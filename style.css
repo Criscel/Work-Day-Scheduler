@@ -1,3 +1,41 @@
+header {
+  text-align: center;
+}
 textarea {
-    border: 2px black solid;
+  border-radius: 5px;
+  background: transparent;
+}
+
+button {
+  border-radius: 5px;
+  background: rgb(0, 238, 255);
+}
+
+button:hover {
+  background: rgb(2, 247, 2);
+  font-size: 25px;
+}
+
+.col-1.hour {
+  text-align: center;
+  padding-top: 15px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  background:lightyellow
+}
+
+.row.time-block {
+  margin-bottom: 5px;
+}
+
+.past {
+  background: gray;
+}
+
+.present {
+  background: red;
+}
+
+.future {
+  background: lightgreen;
 }
