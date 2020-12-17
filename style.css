@@ -4,6 +4,7 @@ header {
 textarea {
   border-radius: 5px;
   background: transparent;
+  color: black;
 }
 
 button {

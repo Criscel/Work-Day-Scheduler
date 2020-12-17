@@ -7,35 +7,36 @@ function currentDateTime() {
    
     $(".time-block").each(function () {
         var id = $(this).attr("id");
-        //console.log(this);
+        console.log(this);
 
-        var appointment = localStorage.getItem(id);
+        var schedule = localStorage.getItem(id);
 
-        if(appointment !== null) {
-            $(this).children(".appointment").val(appointment)
+        if(schedule !== null) {
+            $(this).children(".schedule").val(schedule)
             //console.log(this);
         }
     });
 }
 
 currentDateTime();
-console.log(currentDateTime());
+//console.log(currentDateTime());
 
 
 //this will save the schedule input on the specific time
-var saveButton = $(".save-btn");
+var saveBtn = $(".saveBtn");
 
-saveButton.on("click", function () {
-    var time = $(this).parent().data("hour");
-    console.log(this);
-    var appointment = $(this).siblings(".appointment").val();
-    console.log(this);
+saveBtn.on("click", function () {
+    var time = $(this).parent().attr("id");
+    //console.log(this);
+    var schedule = $(this).siblings(".schedule").val();
+    //console.log(this)
 
-    localStorage.setItem(time, appointment);
+    localStorage.setItem(time, schedule);
+    console.log(localStorage);
 });
 
 
-//this will be the colour changing basis for oart, present and future
+//this will be the colour changing basis for past, present and future
 function pastPresentFuture() {
     var currentTimeEl = moment().hours();
    // console.log(currentTimeEl);
@@ -59,3 +60,4 @@ function pastPresentFuture() {
 }
 
 pastPresentFuture();
+//localStorage.clear();
