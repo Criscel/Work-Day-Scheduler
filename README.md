@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Work Day Scheduler
+This program is a day-to-day calendar that enables the user to save appointments on the the text box and shows the current date at the header.
 
-You can use the [editor on GitHub](https://github.com/Criscel/Work-Day-Scheduler/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Installation
+The calendar is color coded based on the past, present and future. Gray for the past hour, Red for the current time and Green for the future hours. I used .CSS to style the page.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.JS file was used for the functonlaity of the calendar such as dislaying the current date and time, saving the user input in the text area with the local storage and creating a function for the past, present and future feature.
 
-### Markdown
+I also used [Moment.js](https://momentjs.com/) to show the current date and time.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Criscel/Work-Day-Scheduler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Usage
+[Work_Day_Schedule](https://criscel.github.io/Work-Day-Scheduler/)
