@@ -10,3 +10,13 @@ I also used [Moment.js](https://momentjs.com/) to show the current date and time
 
 ## Usage
 [Work_Day_Schedule](https://criscel.github.io/Work-Day-Scheduler/)
+
+[Scheduler Page](Assets/calendar.png)
+[Header with Current Date/Time](Assets/header.png)
+[Working Hours](Assets/hours.png)
+
+## Credits
+[Code Validator](https://validator.w3.org/nu/),
+[MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
+[W3Scools](https://www.w3schools.com/js/default.asp),
+[Moment.js](https://momentjs.com/)
