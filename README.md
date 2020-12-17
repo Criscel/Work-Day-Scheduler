@@ -6,7 +6,7 @@ The calendar is color coded based on the past, present and future. Gray for the 
 
 .JS file was used for the functonlaity of the calendar such as dislaying the current date and time, saving the user input in the text area with the local storage and creating a function for the past, present and future feature.
 
-I also used [Moment.js](https://momentjs.com/) to show the current date and time.
+I also used [Moment.js](https://momentjs.com/) to show the current date and time and [Font Awesome](https://fontawesome.com/icons/save?style=solid) for the floopy disc icon instead of 'save' word.
 
 ## Usage
 [Work_Day_Schedule](https://criscel.github.io/Work-Day-Scheduler/)
@@ -20,6 +20,7 @@ I also used [Moment.js](https://momentjs.com/) to show the current date and time
 [MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
 [W3Scools](https://www.w3schools.com/js/default.asp),
 [Moment.js](https://momentjs.com/)
+[Font Awesome](https://fontawesome.com/icons/save?style=solid)
 
 ### Jekyll Themes
 
